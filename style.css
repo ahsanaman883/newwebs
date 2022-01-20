@@ -1,0 +1,709 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+}
+/* ============== HOME ================= */
+                /* HEADER   SELECTORS */
+.home{
+    width: 100%;
+    height: 700px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    background-color: #16a085;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    overflow: hidden;
+}
+.logo{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.nav{}
+.item{
+    display: inline-block;
+    margin: 0;
+}
+.link{
+    color: #fff;
+    display: block;
+    padding: 40px 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: all 1s ease;
+}
+.link:hover{
+    background-color: #1abc9c;
+}
+.toggle{
+    display: none;
+    padding: 20px;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: 1s ease;
+}
+                /* BACKGROUND   SELECTORS */
+.bg-content{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 620px;
+    height: 300px;
+    color: #fff;
+}
+.bg-title{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.bg-p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.bg-btn{
+    display: inline-block;
+    padding: 20px 35px;
+    border: 2px solid #1abc9c;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    transition: all 1s ease;
+}
+.bg-btn:hover {
+    background-color: #1abc9c;
+}
+
+
+
+
+/* ============== HOME END ================= */
+
+
+
+
+
+
+
+/* =============== SERVICE ==================== */
+
+
+
+.service{
+    width: 100%;
+    padding: 60px 10px;
+}
+.h-title{
+    text-align: center;
+    font-size: 30px;
+    color: #1abc9c;
+}
+.service-container{
+    width: 80%;
+    margin: auto;
+    padding: 30px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-gap: 20px;
+}
+.box{
+    display: inline-block;
+    padding: 30px 20px;
+    text-align: center;
+    color: #1abc9c;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 1s ease;
+}
+.box:hover{
+    background-color: #1abc9c;
+    color: #fff;
+}
+.fas{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.sertitle{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.box p{
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    transition: 1s ease;
+}
+.box:hover p{
+    color: #fff;
+}
+
+
+
+
+
+
+/* =============== SERVICE END ==================== */
+
+
+
+
+
+
+
+/* ================= OUR TEAM ====================== */
+
+
+
+
+.team-container{
+    width: 100%;
+    padding: 60px 10px;
+}
+.h-title1{
+    margin-bottom: 60px;
+}
+.team-card-container{
+    width: 100%;
+    margin:  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 340px;
+    height: 500px;
+    margin: 20px;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px #e2e2e2,
+                        -4px -4px 15px #e2e2e2;
+    transition: 1s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card .imgbox{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 40px auto;
+    border-radius: 50%;
+}
+.card .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+.card .text{
+    width: 100px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+ h4{
+     text-align: center;
+     font-size: 20px;
+     color: #b7b7b7;
+ }
+.social-media{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.fab{
+    font-size: 30px;
+    margin: 0px 10px;
+    color: #1abc9c;
+    transition: all 1s ease;
+}
+.fab:hover{
+    transform: scale(1.3);
+}
+
+
+/* ================= OUR TEAM END ====================== */
+
+
+
+
+
+
+/* ================== CONTACT US ======================= */
+
+
+
+
+.contact-us{
+    width: 100%;
+    padding: 60px 40px;
+}
+.h-title2{
+    margin: 40px 0px;
+}
+.form-container{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+form{
+    width: 100%;
+}
+.form-row{
+    display: flex;
+}
+.col{
+    width: 50%;
+    margin: 10px 5px;
+}
+label{
+    color: #1abc9c;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 18px;
+    transition: 1s ease;
+}
+input:focus{
+    border: 1px solid #1abc9c;
+    background-color: #ecf5f4;
+}
+.textbox{
+    width: 100%;
+    padding: 0px 5px;
+}
+label[for="send"]{
+    font-size: 18px;
+    color: #1abc9c;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px 10px;
+    font-size: 18px;
+    transition: 1s ease;
+}
+textarea:focus{
+    border: 1px solid #1abc9c;
+    background-color: #ecf5f4;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* ================== CONTACT US END======================= */
+
+
+
+
+
+
+
+
+
+/* =================== FOOTER ================= */
+
+
+.footer{
+    width: 100%;
+    background-color: #0a3d62;
+    color: #eee;
+    padding: 60px 40px;
+}
+.footer-row{
+    width: 90%;
+    margin: auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer-col{
+    width: 33%;
+    margin: 20px;
+    padding: 10px;
+}
+.footer-col:nth-child(1){
+    width: 45%;
+}
+.footer-col:nth-child(2){
+    width: 25%;
+}
+.footer-col:nth-child(3){
+    width: 30%;
+}
+.ab-title{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.ab-p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.social{
+    color: #fff;
+    font-size: 25px;
+}
+.social:hover{
+    transform: scale(1.3);
+}
+
+a{
+    display: block;
+    margin: 10px 0px;
+    color: #fff;
+    font-size: 16px;
+}
+.fad{
+    font-size: 20px;
+}
+span{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-phone-alt{
+    transform: translateY(-13px);
+    margin-right: 15px;
+}
+.con-address{
+    margin: 15px 0px;
+    height: 25px;
+}
+.footer-row2{
+    width: 100%;
+    text-align: center;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+
+
+
+
+/* =================== FOOTER END================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .home{
+        height: 100vh;
+    }
+     .header{
+         overflow: visible;
+         z-index: 1;
+     }
+     .nav{
+         position: fixed;
+         top: 0;
+         left: 100%;
+         width: 100%;
+         height: 100vh;
+         background-color: #1abc9c;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         z-index: -2;
+         opacity: 1;
+         transition: 1s ease;
+     }
+     .active.nav {
+         left: 0%;
+     }
+     .link{
+         font-size: 22px;
+     }
+     
+
+.toggle{
+    display: block;
+}
+.active.toggle .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.active.toggle .bar:nth-child(2){
+    opacity: 0;
+    transform: translatex(-8px);
+}
+.active.toggle .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+    
+.bg-content{
+    width: 100%;
+    left: 0%;
+    padding: 15px;
+    text-align: center;
+}
+.bg-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.bg-p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* =============== SERVICE ==================== */
+
+
+
+.service{
+    width: 100%;
+    padding: 40px 10px;
+}
+
+.service-container{
+    width: 95%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    grid-gap: 20px;
+}
+
+
+
+
+
+
+
+/* =============== SERVICE END ==================== */
+
+
+
+
+
+
+
+
+
+/* ================= OUR TEAM ====================== */
+
+
+
+
+
+.team-card-container{
+    width: 80%;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* ================= OUR TEAM END ====================== */
+
+
+
+
+
+
+
+/* ================== CONTACT US ======================= */
+
+
+.form-container{
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+}
+.form-row{
+    display: block;
+}
+.col{
+    width: 100%;
+    margin: 20px 0px;
+}
+.textbox{
+    width: 100%;
+    padding: 0px 0px;
+}
+
+/* ================== CONTACT US END======================= */
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================== FOOTER ================= */
+
+
+.footer{
+    width: 100%;
+    padding: 60px 40px;
+    background-color: #0a3d62;
+    color: #eee;
+}
+.footer-row{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.footer-col{
+    width: 100%;
+    display: block;
+}
+.footer-col:nth-child(1){
+    width: 100%;
+}
+.footer-col:nth-child(2){
+    width: 100%;
+}
+.footer-col:nth-child(3){
+    width: 100%;
+}
+
+
+
+
+/* =================== FOOTER END================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+@media only screen and (max-width: 540px) {
+    .bg-content{
+        width: 100%;
+        left: 0%;
+        padding: 10px;
+        text-align: center;
+    }
+    .bg-title{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .bg-btn{
+        padding: 10px 18px;
+        font-size: 18px;
+    }
+    
+}
